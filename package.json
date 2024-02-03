@@ -1,0 +1,28 @@
+{
+  "name": "electro",
+  "version": "0.0.1",
+  "description": "Snake Game made as an Electron App",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nistaux/Electro.git"
+  },
+  "keywords": [
+    "electron",
+    "snake",
+    "game"
+  ],
+  "author": "Nistaux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nistaux/Electro/issues"
+  },
+  "homepage": "https://github.com/nistaux/Electro#readme",
+  "dependencies": {
+    "electron": "^28.2.1"
+  }
+}
