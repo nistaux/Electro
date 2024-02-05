@@ -1,5 +1,5 @@
 {
-  "name": "Electro",
+  "name": "electro",
   "version": "0.0.1",
   "description": "Snake Game made as an Electron App using React and Vite",
   "main": "./out/main/index.js",
