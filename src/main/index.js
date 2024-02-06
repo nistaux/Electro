@@ -8,9 +8,11 @@ function createWindow() {
   const mainWindow = new BrowserWindow({
     title: 'Electro',
     width: 900,
-    height: 670,
+    height: 900,
     show: false,
     autoHideMenuBar: true,
+    resizable: false,
+    icon: icon,
     ...(process.platform === 'linux' ? { icon } : {}),
     webPreferences: {
       preload: join(__dirname, '../preload/index.js'),
