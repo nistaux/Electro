@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+div.title-stuff {
+    width: 100%;
+    position: absolute;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 0px;
+    text-align: center;
+    user-select: none;
+    color: white;
+}
+
+div.title-stuff h1 {
+    color: rgb(238, 155, 255);
+    font-size: 80px;
+    margin: 100px;
+    margin-top: 200px;
+    
+}
+
+div.title-stuff h2 {
+    
+    font-size: 50px;
+    margin: 50px;
+    display:block;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+div.title-stuff h2:hover {
+    font-size: 70px;
+    margin: 0px;
+    color: rgb(218, 218, 102);
+}
+
+img.app-state-title {
+    
+}
+
+img.app-state-game {
+
+}
